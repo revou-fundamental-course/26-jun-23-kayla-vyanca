@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/form.js"></script>
+    <title>E-Groceries</title>
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+    <header>
+        <section id="headerNavigation">
+            <img src="https://cdn-icons-png.flaticon.com/128/2203/2203206.png" alt="" width="40px" height="40px">
+            <nav id="navigation">
+                <a href="#home">Home</a>
+                <a href="#package">Our Package</a>
+                <a href="#quote">Call Us</a>
+            </nav>
+        </section>
+        <section id="home">
+            <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            <h4 id="subtitle">Every Day with Best Ingredients</h4>
+        </section>
+    </header>
+
+
+    <main>
+        <section id="callUs">
+            <article id="article">
+                <div>
+                    <img class="slideshow" src="assets/Groceries.jpg" alt="">
+                    <img class="slideshow" src="assets/buah.jpg" alt="">
+                    <button onclick="plusDivs(-1)"></button>
+                    <button onclick="plusDivs(1)"></button>
+                </div>
+
+                <h3><i><q>setiap hari beli sayur buah yang fresh di sini</q></i></h3>
+
+                <article>
+                    <table id="benefit">
+                        <td>
+                            <img src="assets/logo.png" alt="" width="40px" height="40px">
+                        </td>
+                        <td>
+                            <h4>Florence Hughens <br> <i style="color: rgba(128, 128, 128, 0.8);">Ibu Rumah Tangga, 28</i></h4>
+                        </td>
+                    </table>
+                    <div class="grid-line"></div>
+                </article>
+
+                <article id="benefit2">
+                    <h4>Adapun keunggulan dari E-Groceries yang dapat kami tawarkan kepada pelanggan kami: </h4>
+                    <h5><span>1.</span> Kami selalu menjual buah & sayur yang segar yang dipetik setiap harinya di kebun kami<br><p style="padding-left: 40px;">sendiri sehingga kesegarannya masih terjaga.</p></h5>
+                    <h5><span>2.</span> Kami menawarkan pelayanan instant delivery yang dikirim oleh kurir sesaui dengan SOP <br><p>untuk menjaga kondisi belanja kamu.</p></h5>
+                    <h5><span>3.</span> Kami menjual berbagai kebutuhan mulai dari kitchen ingredient, kitchen set & bundling set <br> <p>sehingga semua yang Anda butuhkan tersedia di E-Groceries.</p></h5>
+                </article>
+            </article>
+
+
+
+            <aside>
+                <article class="card">
+                    <header >
+                        <h2>Contact Us</h2>
+                        <h5>Sales akan menghubungi Anda 1x24 jam setelah<br> data kami terima.</h5>
+                    </header>
+    
+                    <form id="form" class="main_form" >
+                        <div class="row">
+                           <div class="input-control">
+                                <label for="username">Name:</label>
+                                <input class="contactus" type="type" name="username" id="username"> 
+                                <div class="error"></div>
+                           </div>
+                           <div class="input-control">
+                                <label for="email">Email:</label>
+                                <input class="contactus" type="type" name="email" id="email">
+                                <div class="error"></div> 
+                           </div>
+                           <div class="input-control">
+                                <label for="phonenumber">Phone-Number:</label>
+                                <input class="contactus" type="type" name="phonenumber" id="phonenumber">
+                                <div class="error"></div>                          
+                           </div>
+                           <div class="input-control">
+                                <label for="messages">Message:</label>
+                                <textarea class="contactus" type="type" name="messages" id="messages"></textarea>
+                                <div class="error"></div>
+                           </div>
+                           <div class="col-sm-12">
+                                <button class="send_btn">SEND</button>
+                           </div>
+                        </div>
+                     </form>
+                </article>
+            </aside>
+
+        </section>
+
+
+        <section>
+            <h2 id="package">Our Package</h2>
+            
+            <table id="logo">
+                <tr>
+                    <th id="logo4">
+                        <img src="https://cdn-icons-png.flaticon.com/128/10008/10008947.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Fresh Fruit</h4>
+                            <p style="font-size: small;">Buah dengan kualitas terbaik <br> dari local atau import dan <br> harga yang menarik</p>
+                        </td>
+                    </th>
+                    <th id="logo3">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2329/2329903.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Fresh Vegetable</h4>
+                            <p style="font-size: small;">Sayuran segar langsung dari <br> sumber pertanian terbaik</p>
+                        </td>
+                        </td>
+                    </th>
+                    <th id="logo1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5637/5637217.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Instant Delivery</h4>
+                            <p style="font-size: small;">Dikirim instan oleh kurir <br>yang telah ditraining dengan<br> SOP untuk menjaga<br> kondisi belanja kamu</p>
+                        </td>
+                    </th>
+                </tr>
+                <tr>
+                    <th id="logo4">
+                        <img src="https://cdn-icons-png.flaticon.com/128/527/527670.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Kitchen Ingredient</h4>
+                            <p style="font-size: small;">Bumbu dapur lengkap untuk <br> keperluan memasak kamu</p>
+                        </td>
+                    </th>
+                    <th id="logo3">
+                        <img src="https://cdn-icons-png.flaticon.com/128/7558/7558583.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Kitchen Set</h4>
+                            <p style="font-size: small;">Segala jenis alat masak untuk <br>membantu kamu memasak</p>
+                        </td>
+                    </th>
+                    <th id="logo1">
+                        <img src="https://cdn-icons-png.flaticon.com/128/6389/6389093.png" alt="" width="40px" height="40px">
+                        <td id="logo2">
+                            <h4>Bundling Set</h4>
+                            <p style="font-size: small;">Bingung masak apa? sudah <br>tersedia paket untuk kamu <br>masak di dapur mu</p>
+                        </td>
+                    </th>
+                </tr>
+            </table>
+        </section>
+
+
+        <section id="quote">
+            <h1>E-Groceries : Semua Kebutuhan Anda Ada Di Sini</h1>
+            <h5>E-Groeceries siap melayani kebutuhan Anda. Kami selalu mengedepankan kulaitas terbaik dan pelayanan yang memuaskan <br> serta penawaran menarik setiap bulannya. Di E-Groceries segala kebutuhan Anda terpenuhi hanya dalam satu toko. <br> Belanja di E-Groceries sekarang dengan klik tombol di bawah. Jangan sampai ketinggalan promonya.</h5>
+            <div>
+                <button id="call_btn">CALL TO ACTION</button>
+            </div>
+        </section>
+
+        <section>
+            <div id="copyright">
+                <div class="wrapper">
+                    &copy; 2023. <b>E-Groceries.</b> All Rights Reserved
+                </div>
+            </div>
+             
+        </section>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

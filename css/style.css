@@ -1,0 +1,351 @@
+
+
+#headerNavigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 10px 20px;
+    border-bottom: 1px solid black;
+}
+
+#navigation {
+    display: flex;
+    gap: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#subtitle {
+    color: rgba(128, 128, 128, 0.873);
+    margin-bottom: 40px;
+    padding: 10px 20px 20px 20px;
+}
+
+
+#callUs {
+    display: flex;
+    direction: row;
+    gap: 5px;
+}
+
+#article {
+    flex-basis: 60%;
+    flex-grow: 0;
+    margin-left: 16px;
+    padding: 15px 20px 15px 20px;
+}
+
+#table {
+
+    padding-left: 50px;
+    
+}
+
+#article img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+
+#article h3 {
+    color: rgba(128, 128, 128, 0.873);
+    text-align: justify;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+#article h4 {
+    color: black;
+    text-align: justify;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+#article p{
+    color: black;
+    text-align: justify;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+aside {
+    flex-basis: 40%;
+    flex-grow: 0;
+    margin-right: 16px;
+    padding: 15px 20px 15px 20px;
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+}
+
+section th {
+    font-weight: bold;
+}
+
+
+.main_form .contactus {
+    border: inherit;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    color: #000000;
+    font-weight: 400;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    margin-top: 20px;
+}
+
+.main_form .textarea {
+    border: #000000 solid 1px;
+    padding: 0px 19px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: transparent;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_form .send_btn {
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #000;
+    color: #fff;
+    padding: 13px 0px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+  
+
+.main_form .send_btn:hover {
+    background-color: #FFC82A;
+    transition: ease-in all 0.5s;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card h5 {
+    color: rgba(128, 128, 128, 0.873);
+}
+
+#form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+#benefit {
+    margin-left: 16px;
+    text-align: justify;
+    padding: 10px 5px 10px 5px;
+}
+
+#benefit2 {
+    margin-left: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+#package {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 100px 50px 100px 50px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+#logo2 {
+    padding: 40px 150px 40px 10px;
+    text-align: justify;
+
+
+}
+
+#logo1 {
+    padding-left: 60px;
+
+}
+
+#logo3 {
+    padding-left: 100px;
+}
+
+#logo4 {
+    padding-left: 100px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+#call_btn {
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #000;
+    color: #fff;
+    padding: 13px 0px;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#call_btn:hover {
+    background-color: #FFC82A;
+    transition: ease-in all 0.5s;
+    color: black;
+}
+
+
+#quote {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quote h5 {
+    padding-bottom: 100px;
+    color: rgba(128, 128, 128, 0.873);
+}
+
+#benefit2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#benefit2 h4 {
+    color: #000;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#benefit2 h5 {
+    color: rgba(128, 128, 128, 1);
+    margin-left: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#benefit2 h5 span {
+    background-color:rgba(128, 128, 128, 0.1);
+    border-radius: 150%;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#benefit2 h5 p {
+    color: rgba(128, 128, 128, 1);
+    padding-left: 40px;
+}
+
+.grid-line {
+    width: 20%;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 10px 0;
+    border-radius: 30px;
+    margin: auto;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    #headerNavigation {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #headerNavigation img {
+        display: block;
+        width: 20%;
+        text-align: justify;
+    }
+
+    #navigation {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #logo {
+        width: 20%;
+    }
+
+}
